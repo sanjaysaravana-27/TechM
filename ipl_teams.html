@@ -1,86 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>IPL Teams</title>
-    </head>
-    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Teams</title>
 
+    <link rel="stylesheet" href="styles.css">
+    
     <style>
-        body {
-            font-family: Arial;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            background-color: #f8f9fa;
+        .team-logo {
+            width: 40px;
+            vertical-align: middle;
+            margin-right: 10px;
         }
         h1 {
-            margin: 20px 0;
-            font-size: 2.5em;
-        }
-        table {
-            width: 80%;
-            margin: 20px 0;
-            border-collapse: collapse;
-            font-size: 1.2em;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 12px;
-            text-align: left;
-        }
-        th {
-            background-color: #333;
-            color: white;
-        }
-        td {
-            background-color: #fff;
-        }
-        center {
-            width: 100%;
+            color: #2c3e50;
         }
     </style>
-    
-    
-    
-    <body>
-        <h1>IPL teams and their respective Home ground and Captains</h1>
-        <table border="1">
-            <center>
-            <thead>
-                <tr>
-                    <th>Team Name</th>
-                    <th>Home</th>
-                    <th>Captain</th>
-                </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Chennai Super Kings</td>
-                        <td>Chennai</td>
-                        <td>Ruturaj Gaikwad</td>
-                    </tr>
-                    <tr>
-                        <td>Mumbai Indians</td>
-                        <td>Mumbai</td>
-                        <td>Hardik Pandya</td>
-                    </tr>
-                    <tr>
-                        <td>Punjab Kings</td>
-                        <td>Mohali</td>
-                        <td>Shreyas Iyer</td>
-                    </tr>
-                    <tr>
-                        <td>Kolkata Knight Riders</td>
-                        <td>Kolkata</td>
-                        <td>Ajinkya Rahane</td>
-                    </tr>
-                </tbody> 
-            </center>
-        </table>
-    </body>
-    
+</head>
+
+<body style="background: #f0f2f5;">
+    <h1 style="text-align: center; padding: 20px; font-family: 'Arial Black';">
+         IPL 2024 Teams 
+    </h1>
+
+    <table style="margin: 20px auto; border-radius: 10px; overflow: hidden;">
+        <thead>
+            <tr>
+                <th style="padding: 15px; background-color: #2c3e50; color: white;">Logo</th>
+                <th style="padding: 15px; background-color: #2c3e50; color: white;">Team Name</th>
+                <th style="padding: 15px; background-color: #2c3e50; color: white;">Home</th>
+                <th style="padding: 15px; background-color: #2c3e50; color: white;">Captain</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Chennai_Super_Kings_Logo.svg/1200px-Chennai_Super_Kings_Logo.svg.png" 
+                       alt="CSK" style="width: 40px; height: 40px; object-fit: contain;"></td>
+                <td>Chennai Super Kings</td>
+                <td>Chennai</td>
+                <td>Ruturaj Gaikwad</td>
+            </tr>
+            <tr>
+                <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Mumbai_Indians_Logo.svg/1200px-Mumbai_Indians_Logo.svg.png" 
+                       alt="MI" style="width: 40px; height: 40px; object-fit: contain;"></td>
+                <td>Mumbai Indians</td>
+                <td>Mumbai</td>
+                <td>Hardik Pandya</td>
+            </tr>
+            <tr>
+                <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Punjab_Kings_Logo.svg/1200px-Punjab_Kings_Logo.svg.png" 
+                       alt="PBKS" style="width: 40px; height: 40px; object-fit: contain;"></td>
+                <td>Punjab Kings</td>
+                <td>Mohali</td>
+                <td>Shreyas Iyer</td>
+            </tr>
+            <tr>
+                <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Kolkata_Knight_Riders_Logo.svg/1200px-Kolkata_Knight_Riders_Logo.svg.png" 
+                       alt="KKR" style="width: 40px; height: 40px; object-fit: contain;"></td>
+                <td>Kolkata Knight Riders</td>
+                <td>Kolkata</td>
+                <td>Ajinkya Rahane</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
 </html>
-
-
